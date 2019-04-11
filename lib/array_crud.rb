@@ -18,7 +18,7 @@ array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
-"cookies" = my_array.pop
+array.pop
 
 end
 
