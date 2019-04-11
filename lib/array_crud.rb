@@ -8,7 +8,8 @@ my_array = ["chocolate", "vanilla", "strawberry", "cookies"]
 end
 
 def add_element_to_end_of_array(array, element)
-my_array << "element!"
+
+array << "element!"
 
 end
 
@@ -23,7 +24,7 @@ end
 
 def remove_element_from_start_of_array(array)
 "chocolate" = my_array.shift
-puts chocolate
+
 end
 
 def retrieve_element_from_index(array, index_number)
