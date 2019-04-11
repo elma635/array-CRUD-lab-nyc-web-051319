@@ -17,12 +17,12 @@ my_array.unshift("berry")
 end
 
 def remove_element_from_end_of_array(array)
-cookies = my_array.pop
+"cookies" = my_array.pop
 
 end
 
 def remove_element_from_start_of_array(array)
-chocolate = my_array.shift
+"chocolate" = my_array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
